@@ -20,7 +20,7 @@ if (!searchterm || searchterm == '') {
 
 console.log("🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭");
 console.log("🍭" + colors.blue('  Searching for') + ' ' + colors.rainbow('"' + searchterm + '"'));
-console.log("🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭");
+console.log("🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭 🍭\n");
 
 function searchRepo(repo) {
     gitGrep(repo.path, {
