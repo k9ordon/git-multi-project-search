@@ -8,7 +8,7 @@
 ## setup
 - clone this repo ```git clone git@github.com:k9ordon/git-mulit-project-search.git```
 - ```npm install```
-- dublicate ```.repos.example.json``` to ```.repos.json``` and add the repos u want to search trough
+- dublicate ```.repos.example.json``` to ```.repos.json``` and add the repos u want to search through
 - run ```grunt``` (clones all the repos)
 
 ## usage
