@@ -6,8 +6,9 @@
 - grunt
 
 ## setup
-- dublicate ```.repos.example.json``` to ```.repos.json```
-- add the repos u want to search
+- clone this repo ```git clone git@github.com:k9ordon/git-mulit-project-search.git```
+- ```npm install```
+- dublicate ```.repos.example.json``` to ```.repos.json``` and add the repos u want to search trough
 - run ```grunt``` (clones all the repos)
 
 ## usage
